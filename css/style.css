@@ -167,7 +167,7 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
-    color:  #94A2B3;
+    color:#94A2B3;
     font-size: 12px;
 }
 .people-img{
@@ -267,13 +267,16 @@ hr{
 /* footer */
 footer{
     position: relative;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 }
 .position{
     position: absolute;
+    top: 780px;
+    padding-bottom: 20px;
 }
 .icon a{
     color: #272D4E;
