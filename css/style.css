@@ -177,6 +177,7 @@ a{
     border-radius: 25px;
 }
 
+
 .info-link{
    background-color: #7854F7;
    position: relative;
@@ -195,9 +196,7 @@ a{
     text-decoration: none;
     color: white;
 }
-.info-link span{
-    margin-left: 5px;
-}
+
 .logo-2 img{
    position: relative;
    left: 45%;
@@ -208,6 +207,7 @@ hr{
     width: 80%;
 
 }
+/* All info link */
 .all-info-link{
     display: flex;
     justify-content: space-evenly;
@@ -216,16 +216,23 @@ hr{
     margin-right: 200px;
 
 }
+.all-info-link span{
+    color: white;
+}
+  
+.all-info-link span ul{
+    padding-inline-start: 0;
+}
 
 .all-info-link li{
     list-style: none;
-    
 }
 .all-info-link a{
     text-decoration:none ;
     color: white;
- 
+    
 }
+
 
 
 
