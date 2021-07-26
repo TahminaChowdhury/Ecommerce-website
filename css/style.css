@@ -71,17 +71,20 @@ a{
     margin-left: 3px;
 }
 /* your ecommerce made simple */
-.container{
-    margin-bottom: 150px;
+.first-container{
+    margin-bottom: 80px;
 }
-.container h2{
+.first-container h2{
     display: flex;
     justify-content: center;
     text-align: center;
     color:  #272D4E;
     font-size: 40px;
     font-weight: bold;
+    
 }
+
+
 .ecommerce-container{
     display: flex;
     justify-content: space-evenly;
@@ -144,14 +147,38 @@ a{
     margin-bottom: 30px;
 }
 /* People section */
-
+.container{
+    margin-top: 300px;
+    position: relative;
+}
+.heading{
+    position: relative;
+    top: -180px;
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  #272D4E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  #94A2B3;
+    font-size: 12px;
+}
 .people-img{
+    position: absolute;
+    top: -57px;
     width: 80%;
     margin-left: 10%;
 }
 .get-started{
-    position: relative;
-    top: -120px;
+    position: absolute;
+    width: 100%;
     background-color:  #5F37EF;
     display: flex;
     justify-content: center;
@@ -179,10 +206,11 @@ a{
 
 
 .info-link{
+    position: absolute;
+    top: 250px;
    background-color: #7854F7;
-   position: relative;
-   top: -120px;
    padding-bottom: 50px;
+   width: 100%;
 }
 .link-icon{
     display: flex;
@@ -238,10 +266,14 @@ hr{
 
 /* footer */
 footer{
-   
+    position: relative;
     display: flex;
     justify-content: space-around;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.position{
+    position: absolute;
 }
 .icon a{
     color: #272D4E;
