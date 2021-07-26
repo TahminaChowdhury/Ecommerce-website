@@ -268,9 +268,8 @@ hr{
 footer{
     position: relative;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
     margin-top: 20px;
+    margin-left: 80px;
     
 }
 .position{
@@ -278,6 +277,10 @@ footer{
     top: 780px;
     padding-bottom: 20px;
 }
+.position span{
+   margin-right: 80px;
+}
+
 .icon a{
     color: #272D4E;
     margin-right: 30px;
